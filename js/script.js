@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < cntPage; i++) {
             page += "<span data-page=" + i * cnt + "  id=\"page" + (i + 1) + "\">" + (i + 1) + "</span>";
         }        
-        paginator.innerHTML = `<p>Страницы:</p> ${page}`;
+        paginator.innerHTML = `<p>pages:</p> ${page}`;
         const countBlock = paginator.querySelectorAll('span');        
         if (countBlock.length === 1) {
             paginator.style.display = 'none';
