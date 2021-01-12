@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="icon" href="favicon.png" type="image/x-icon" />
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Marvel</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<div class="test-screen">
+	<div class="close-test">×</div>		
+	<div class="container">
+		<div class="first-screen__text">
+			<img src="images/logo.png" alt="">
+			<div class="scroll-block">
+				<div class="first-screen-overflow">
+					<div class="question-block">
+						<div class="question">
+							<p>Сколко супергероев сражались в первом фильме про мстителей?</p>
+							<p><input type="radio" name="r1" id="Answer" data-value='0'><label>12</label></p>
+							<p><input type="radio" name="r1" id="Answer" data-value='1'><label>10</label></p>
+							<p><input type="radio" name="r1" id="Answer" data-value='0'><label>7</label></p>
+							<p><input type="radio" name="r1" id="Answer" data-value='0'><label>15</label></p>
+						</div>			
+						<div class="question">
+							<p>Какого цвета изначально был задуман Халк?</p>
+							<p><input type="radio" name="r2" id="Answer" data-value='1'><label>Cерый</label></p>
+							<p><input type="radio" name="r2" id="Answer" data-value='0'><label>Зеленый</label></p>
+							<p><input type="radio" name="r2" id="Answer" data-value='0'><label>Нежно розовый=)</label></p>
+						</div>			
+						<div class="question">
+							<p>Кто подумывал купить Marvel чтобы сыграть Человека-паука?</p>
+							<p><input type="radio" name="r3" id="Answer" data-value='0'><label>Том Хенкс</label></p>
+							<p><input type="radio" name="r3" id="Answer" data-value='0'><label>Том Холланд</label></p>
+							<p><input type="radio" name="r3" id="Answer" data-value='1'><label>Майкл Джексон</label></p>
+						</div>			
+						<div class="question">
+							<p>За сколько времени фильм "Мстители Эра Альтрона" собрал миллион долларов в прокате?</p>
+							<p><input type="radio" name="r4" id="Answer" data-value='0'><label>3 месяца</label></p>
+							<p><input type="radio" name="r4" id="Answer" data-value='0'><label>6 месяцев</label></p>
+							<p><input type="radio" name="r4" id="Answer" data-value='1'><label>11 дней</label></p>
+							<p><input type="radio" name="r4" id="Answer" data-value='0'><label>20 дней</label></p>
+						</div>			
+						<div class="question">
+							<p>Кто едва не помешал рождению на свет одного из самых популярных супергероев в мире - Человека-паука, отговаривая создателей и мотивируя это тем, что дети боятся пауков и персонаж обречен на провал?</p>
+							<p><input type="radio" name="r5" id="Answer" data-value='0'><label>Стэн Ли</label></p>
+							<p><input type="radio" name="r5" id="Answer" data-value='0'><label>Стив Дитко</label></p>
+							<p><input type="radio" name="r5" id="Answer" data-value='1'><label>Мартин Гудман</label></p>
+						</div>		
+						<div class="question">
+							<p>Сколько раз создатель сотни супергероев Стэн Ли появлялся в фильмах и сериалах, снятых по его комик­сам?</p>
+							<p><input type="radio" name="r6" id="Answer" data-value='0'><label>33</label></p>
+							<p><input type="radio" name="r6" id="Answer" data-value='1'><label>45</label></p>
+							<p><input type="radio" name="r6" id="Answer" data-value='0'><label>121</label></p>
+						</div>		
+						<div class="question">
+							<p>Когда на экраны вышел первый собственный фильм «Marvel»?</p>
+							<p><input type="radio" name="r7" id="Answer" data-value='0'><label>1992</label></p>
+							<p><input type="radio" name="r7" id="Answer" data-value='1'><label>2008</label></p>
+							<p><input type="radio" name="r7" id="Answer" data-value='0'><label>2000</label></p>
+						</div>				 
+						<button class="btn blocked" id="btnResutl">Показать результат</button>
+					</div>				
+				</div>					
+			</div>		
+			<div id="resultFild"></div>	
+			<div class="resultat-block">
+				<p>А вы заметили что <strong>лента справа прокручивается</strong> если проскроллить страницу, наведя на него курсор?=)) Это был еще один тест, но уже на вниательность =)</p>
+				<p><strong>Проверьте себя:</strong></p>
+				<p>Поначалу Халк был <strong>серым</strong>. Однако качество печати в 60-х годах оставляло желать лучшего и чтобы громила не терялся на страницах и не сливался с фоном, его сделали зеленым. Создатели решили оставить цвет персонажа таким...</p>
+				<p><strong>Мартин Гудман</strong> едва не помешал рождению на свет одного из самых популярных супергероев в мире - Человека-паука. Он отговаривал сценариста Стэна Ли и художника Стива Дитко от этой затеи, настаивая, что дети боятся пауков и персонаж обречен на провал и забвение.</p>
+				<p>Певец  <strong>Майкл Джексон</strong> несколько раз пытался купить издательство Marvel. Он очень фанател от Человека-паука и хотел сыграть его роль. Компанию не удалось купить. Цена вопроса была примерно миллиард долларов. Майкл мог себе это позволить, но финансовые консультанты отговорили певца, потому что дела у издательства тогда шли неровно и деньги можно было потерять.Позже, уже в 90-х, Джексон попытался заполучить права на экранизацию истории Питера Паркера. Он даже приехал домой к Стэну Ли и долго уговаривал его, но снова получил отказ. При этом Стэн очень хорошо отзывается о певце.</p>
+				<p><strong>10</strong> супергероев сражались в первом фильме про Мстителей. И спасли мир.</p>
+				<p><strong>11</strong> дней ушло у фильма «Мстители: Эра Альтрона» на то, чтобы собрать миллиард долларов в прокате. Марк Цукерберг заработал такую сумму за 23 года.</p>
+				<p><strong>45</strong> раз Стэн Ли, создатель сотни супергероев Marvel Comics, появлялся в фильмах и сериалах, снятых по его комик­сам. Писатель умер в 2018 году. Но Marvel обещают, что мы еще увидим его в кино.</p>
+				<p>Первый собственный фильм «Marvel» вышел на экраны в <strong>2008</strong>. Первым фильмом компании стал блокбастер «Железный человек», который очень понравился зрителям и собрал много денег по всему миру. До этого «Marvel» занималась только комиксами и продажей прав на их экранизацию.</p>					
+			</div>						
+		</div>
+		<div class="tape">
+			<div class="force-overflow">				
+			</div>			
+		</div>
+	</div>	
+</div>
+
+<header>
+	<div class="banner">
+		<div class="container">
+			<div class="text">
+				<img src="images/logo.png" alt="">
+				<strong>Marvel Characters</strong>
+				<p>Get hooked on a hearty helping of heroes and villains from the humble House of Ideas!</p>
+			</div>		
+		</div>
+	</div>
+</header>
+<main>
+	<div class="main">
+		<div class="container">
+			<a href="#" class="testing">test</a>
+			<div id="filter">
+				<a href="#" class="filter-show__block">Sort by movies</a>
+				<ul id="filter-list">
+					<div class="close-filter">×</div>				
+				</ul>
+			</div>
+			<div id="cards"></div>
+			<div class="paginator-block">
+				<div class="paginator"></div>
+			</div>		
+		</div>	
+	</div>
+</main>
+<footer>
+	<div class="container">
+		<p>&copy; Лена Пилюшенко JS | JS 16.0 | ПОЛНЫЙ ФАРШ</p>
+	</div>
+</footer>
+
+<script src='./js/script.js'></script>
+
+</body>
+
+</html>
